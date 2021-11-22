@@ -1,6 +1,6 @@
 import { CookieUtil } from "./cookie.js"
 
-let clearProducts = document.querySelector('#clearBtn')
+const clearProducts = document.querySelector('#clearBtn')
 
 function deleteAllCookies() { //ลบตัว cookie ออก 
     let clearProduct = [];
