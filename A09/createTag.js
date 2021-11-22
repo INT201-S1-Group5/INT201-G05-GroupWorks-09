@@ -1,5 +1,4 @@
 import product from "./uniqloProduct.js";
-// import deleteAllCookies from "./clearCookies.js";
 
 //สร้าง navbar
 const navbarEle = document.querySelector('#navBar');
@@ -22,7 +21,6 @@ navbarEle.appendChild(searchBar);
 // ปุ่ม clear
 let clearBtn = document.createElement('button');
 clearBtn.setAttribute('id', 'clearBtn');
-// clearBtn.setAttribute('onclick', 'deleteAllCookies()');
 clearBtn.textContent = 'Clear';
 navbarEle.appendChild(clearBtn);
 
