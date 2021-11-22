@@ -3,12 +3,6 @@ const switchDark = document.querySelector("#dark");
 const switchLight = document.querySelector("#light");
 const mode = localStorage.getItem("theme")
 
-if (mode == "dark") {
-    darkMode();
-} else {
-    lightMode();
-}
-
 function lightMode() {
     body.style.backgroundColor = "white";
     body.style.color = "black";
@@ -21,6 +15,12 @@ function darkMode() {
     body.style.color = "white";
     switchDark.style.backgroundColor = "#CCCBCB";
     switchLight.style.backgroundColor = "white";
+}
+
+if (mode == "dark") {
+    darkMode();
+} else {
+    lightMode();
 }
 
 switchLight.addEventListener("click", () => {
