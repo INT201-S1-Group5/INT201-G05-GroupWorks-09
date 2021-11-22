@@ -1,4 +1,4 @@
-let product = [{
+const product = [{
         productId: 'S001',
         productName: 'MEN เสื้อเชิ้ต Heather Brown แขนสั้น',
         productType: 'type : ผู้ชาย',
