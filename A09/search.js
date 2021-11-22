@@ -3,7 +3,7 @@ const btnSearch = document.querySelector("#searchBar")
 const divProduct = document.getElementById("products");
 const findProduct = divProduct.getElementsByClassName("product");
 
-btnSearch.style.visibility = "hidden";
+btnSearch.style.visibility = "hidden"; // กดซ่อนตัวกล่อง search
 
 search.addEventListener("click", () => {
     if (btnSearch.style.visibility === "hidden") {
@@ -21,8 +21,6 @@ search.addEventListener("click", () => {
                     findProduct[i].style.display = "none";
                 }
             }
-
-
         });
     } else {
         document.querySelector("#searchBar").innerHTML = "";
